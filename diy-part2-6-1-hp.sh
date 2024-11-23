@@ -14,10 +14,10 @@
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 
 # 修改默认主题
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-sed -i 's/ImmortalWrt/ImmortalWrt-Hanwckf/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/ImmortalWrt/g' package/base-files/files/bin/config_generate
 
 # Modify filename, add date prefix
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-hp-/1' include/image.mk
