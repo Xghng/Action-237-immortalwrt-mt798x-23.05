@@ -2,5 +2,5 @@
 immortalwrt23.05（闭源MTK驱动）主路由版。
 含模块：homeproxy、ddns、vlmcsd、frpc-zh-cn、openvpn-server-zh-cn、autoreboot-zh-cn。
 网速控制eqos-mtk。
-默认IP地址：192.168.1.1
+默认IP地址：192.168.6.1
 密码：空
